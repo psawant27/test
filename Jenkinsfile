@@ -6,7 +6,7 @@ stages{
  	stage ('clone') {
 		steps
 			{
-			   
+			   sh 'rm -rf *'
 			    sh 'git clone https://github.com/psawant27/dotnet-docker.git' 
 			}
  	}
