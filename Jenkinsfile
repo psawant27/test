@@ -13,7 +13,7 @@ stages{
 	stage ('build') {    
 	    steps
 			{
-                sh 'docker build -t dotnetapp /root/.jenkins/workspace/dot_net/dotnet-docker/samples/aspnetapp/'
+                sh 'docker build -t dotnetapp /root/.jenkins/workspace/New_Job/dotnet-docker/samples/aspnetapp/'
 			   
 			}
  	}
